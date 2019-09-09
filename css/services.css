@@ -1,0 +1,78 @@
+/* -- Services page --*/
+
+/* -- about section -- */
+.aboutServices {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.about {
+	padding-bottom: 40px;
+	border-bottom: 3px solid lightgrey;
+	margin-bottom: 30px;
+}
+
+.aboutServices h1{
+	font-size:23px;
+	font-weight: bold;
+}
+
+.services-header-img {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+/*  -- center section -- */
+
+.center {  
+	display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+	border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 35px;
+
+}
+
+.center div {
+    margin-bottom: 30px;
+	padding: 20px;
+	line-height: 1.4;
+	flex-basis:46.9%;
+	background: lightgray;
+	border: 1px solid black;
+	border-radius: 2px;
+}
+
+.center button {
+    padding: 7px;
+    width: 140px;
+    border-radius: 3px;
+    border:1px solid black;
+}
+
+/* -- footer sectoin */
+.firstFooter{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+   
+}
+
+.firstFooter div{
+    line-height: 1.4;
+	flex-basis:46%;
+}
+.footerContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footerContent ul li{
+    line-height: 2;
+}
+
+.firstFooter img { 
+    width:400px;
+}
