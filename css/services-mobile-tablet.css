@@ -1,0 +1,27 @@
+@media (max-width:500px){
+
+    .center  {
+        flex-direction: column;
+        width :100%;
+        align-items: center;
+    }
+    .center div {
+        width:90%;
+    }
+    .aboutServices {
+        padding-left: 20px;
+        padding-right: 20px; 
+    }
+
+    footer img {
+        display: none;
+    }
+    .footerContent {
+        width:100%;
+    }
+    .firstFooter {
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
